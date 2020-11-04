@@ -1,0 +1,50 @@
+
+int led = D6; 
+			//Nimetään muuttujat
+int photosensor = A0; 
+
+int analogvalue; 
+
+int ledToggle(String command); 
+
+void setup() {
+    
+    Serial.begin();
+
+    pinMode(led, OUTPUT); 
+    digitalWrite(led, HIGH);	//Out ja inputit
+
+    Particle.variable("analogvalue", &analogvalue, INT);
+
+    Particle.function("led",ledToggle);
+
+}
+
+void loop() {
+
+    analogvalue = analogRead(photosensor); //Sensori
+
+    Serial.printlnf("%d", analogvalue); //Mittaaminen
+
+    delay(100); //sekunnin viiväste
+}
+
+
+int ledToggle(String command) {
+
+    if (command=="on") {
+        digitalWrite(led,HIGH); //LED päälle
+        return 1;
+    }
+    else if (command=="off") { //LED pois päältä
+        digitalWrite(led,LOW);
+        return 0;
+    }
+    else {
+        return -1;
+    }
+}
+
+
+
+{"cmd":"VarReturn","name":"analogvalue","result":56,"coreInfo":{"last_heard":"2020-11-04T11:09:17.434Z","connected":true,"last_handshake_at":"2020-11-04T11:06:00.779Z","deviceID":"2f002a001947393035313138","product_id":6}}
