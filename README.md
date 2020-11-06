@@ -19,7 +19,6 @@ Päivä      | Aika     | Tehtävät
   
   * Vaihe 4, Valoisuuden mittaminen  
   ![saa-asema](saa-asema.jpg)  
-  
   ![saa-asema](saa-asema_schem)
   
 
