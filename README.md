@@ -8,8 +8,10 @@ Päivä      | Aika     | Tehtävät
 
 ## Työvaiheet:  
   * Vaihe 1, Ledin kytkentä 
+  ![kytkentä](ledikytkentä.fzz)
   
   * Vaihe 2, Ledin vilkuttaminen  
+  
   * Vaihe 3, Ledin kontrollointi selaimella  
   * Vaihe 4, Valoisuuden mittaminen
 
