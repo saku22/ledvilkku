@@ -8,11 +8,11 @@ Päivä      | Aika     | Tehtävät
 
 ## Työvaiheet:  
   * Vaihe 1, Ledin kytkentä   
-  ![kytkentä](ledikytkentä.jpg)
-  
+  ![kytkentä](ledikytkentä.jpg)  
   * Vaihe 2, Ledin vilkuttaminen  
-  
+  ![vilkutus](vilkutus.jpg)  
   * Vaihe 3, Ledin kontrollointi selaimella  
+  
   * Vaihe 4, Valoisuuden mittaminen
 
 
