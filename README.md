@@ -7,8 +7,8 @@ Päivä      | Aika     | Tehtävät
 4.10.2020 | 40min | Valoisuuden mittaaminen  
 
 ## Työvaiheet:  
-  * Vaihe 1, Ledin kytkentä 
-  ![kytkentä](ledikytkentä.bb)
+  * Vaihe 1, Ledin kytkentä   
+  ![kytkentä](ledikytkentä_bb)
   
   * Vaihe 2, Ledin vilkuttaminen  
   
