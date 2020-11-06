@@ -8,7 +8,7 @@ Päivä      | Aika     | Tehtävät
 
 ## Työvaiheet:  
   * Vaihe 1, Ledin kytkentä   
-  ![kytkentä](ledikytkentä_bb)
+  ![kytkentä](ledikytkentä.jpg)
   
   * Vaihe 2, Ledin vilkuttaminen  
   
